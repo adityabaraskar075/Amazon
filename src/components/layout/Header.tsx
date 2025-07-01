@@ -15,8 +15,8 @@ import { useNetworkStatus } from '@/contexts/NetworkStatusContext';
 import { useAuth } from '@/hooks/useAuth';
 
 const primaryNavItems = [
-  { href: "/amazon-pay", label: "Amazon Pay" },
-  { href: "/prime", label: "Prime", icon: <Gem size={16} className="mr-2"/> },
+  { href: "/amazon-pay", label: "Q-Pay" },
+  { href: "/prime", label: "Q-Prime", icon: <Gem size={16} className="mr-2"/> },
   { href: "/smart-rewards", label: "Smart Rewards" },
   { href: "/budget", label: "Budget Insights" },
   { href: "/payment-simulation", label: "FraudGNN Shield" },
@@ -76,7 +76,7 @@ export function Header() {
                 </Button>
               </SheetTrigger>
               <Link href="/" className="flex items-center text-2xl font-bold tracking-tighter border border-transparent hover:border-white rounded-sm p-1">
-                amazon.in
+                Q-Smart Pay
               </Link>
             </div>
 
