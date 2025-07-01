@@ -140,7 +140,7 @@ export default function AmazonPayPage() {
     <div className="bg-muted/30 min-h-screen">
       <div className="container mx-auto px-4 py-6 sm:px-6 lg:px-8">
         <div className="mb-6">
-            <h1 className="text-2xl font-semibold text-gray-500">amazon pay</h1>
+            <h1 className="text-2xl font-semibold text-gray-500">Q-Pay</h1>
         </div>
         
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
@@ -148,7 +148,7 @@ export default function AmazonPayPage() {
           <div className="lg:col-span-3">
             <Card className="shadow-md">
               <CardHeader className="flex flex-row items-center justify-between pb-2">
-                <CardTitle className="text-base font-semibold">Amazon Pay Balance</CardTitle>
+                <CardTitle className="text-base font-semibold">Q-Pay Balance</CardTitle>
                 <span className="text-base font-bold text-primary">₹{balance.toFixed(2)}</span>
               </CardHeader>
               <CardContent>
